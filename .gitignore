@@ -1,0 +1,47 @@
+@'
+# Secrets & môi trường
+.env
+.venv*/
+*.env
+
+# Python
+__pycache__/
+*.pyc
+
+# Notebook & zip
+*.ipynb
+*.zip
+
+# Data & outputs (KHÔNG đẩy dữ liệu thật)
+audio_label/
+audio_label_norm/
+data_cuochop/
+uploads/
+
+# Media lớn
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.aac
+*.srt
+*.vtt
+*.json
+*.txt
+*.bin
+*.pt
+*.onnx
+*.npz
+*.npy
+
+# Frontend build
+node_modules/
+dist/
+build/
+
+# OS/IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+'@ | Out-File -Encoding UTF8 .\.gitignore
